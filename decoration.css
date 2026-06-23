@@ -1,0 +1,164 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navstart{
+    background-color: #BBD4FF;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    z-index: 100;
+}
+
+.menu a{
+    background-color: #3C7BE6;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 40px;
+    border-radius: 3px;
+    font-size: 20px;
+    transition: 0.1s;
+}
+
+.menu a:hover{
+    background-color: #1F4A99;
+    transition: 0.3s;
+}
+
+.menu a:active{
+    background: #7FAAF7;
+}
+
+.logotext{
+    margin-left: 40px;
+}
+
+.homebox{
+ background-color: #E8F1FF;
+ padding: 100px 10px;
+ height: 200px;
+}
+
+.hometext{
+    width: 600px;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.hometext a{
+    background-color: #0041C7;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 3px;
+    transition: 0.1s;
+}
+
+.hometext a:hover{
+    background-color: rgb(0, 0, 127);
+    transition: 0.2s;
+}
+
+.hometext a:active{
+    background: rgb(128, 128, 255);
+    transition: 0.1s;
+}
+
+.choicebox{
+    background-color: rgb(247, 247, 247);
+    width: 97%;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.gathering-choicebox{
+    margin-left: 35px;
+    display: flex;
+    gap: 3%;
+}
+
+.buybox{
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    transform: translateY(25px); 
+    border-radius: 10px;
+    bottom: 2%;
+    box-shadow: 10px 10px 10px gray;
+    transition: 0.2s;
+}
+
+.buybox:hover{
+    background: rgb(236, 236, 236);
+    transform: translateY(10px);
+    box-shadow: 10px 25px 25px gray;
+    transition: 0.3s;
+}
+
+.imagexperia{
+    width: 150px;
+    height: 150px;
+    margin-left: 26px;
+    transform: translateY(26px);
+}
+
+.buybox h3{
+    text-align: center;
+}
+
+.about{
+    background-color: #d7e1ff;
+    padding: 100px 10px;
+    height: 200px;
+}
+
+.text-about{
+    width: 600px;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.buybox a{
+    background-color: green;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.image1{
+    margin-left: 60%;
+    margin-top: -200px;
+}
+
+.image2{
+    margin-left: 110%;
+    margin-top: -200px;
+}
+
+.androidhome{
+    width: 430px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.navend{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 200px;
+}
